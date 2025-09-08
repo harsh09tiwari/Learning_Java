@@ -40,5 +40,5 @@ public class polymorphism {
 
 //Rules for polymorphism
 
-//1-  every function must have one differentiating factor, it can be different arguments or different number of arguments or may be the return type
-//2-
+//  every function must have one differentiating factor, it can be different arguments or different number of arguments or may be the return type
+

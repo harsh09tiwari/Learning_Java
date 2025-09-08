@@ -12,6 +12,14 @@ class Pen{
     }
 }
 
+
+class Pencil{
+    String color;
+    int price;
+}
+
+
+
 class Student{
     String name;
     int age;

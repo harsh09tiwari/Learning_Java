@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package Basics;
 
 public class Try_catch {
     public static void main(String[] args) {
