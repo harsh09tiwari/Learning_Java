@@ -1,4 +1,5 @@
 package com.learningOOPS;
+import bank.Account;
 
 class Shape{
     public void area(){
@@ -30,10 +31,15 @@ class Circle extends Shape{
 
 public class Inheritance {
     public static void main(String[] args){
-        EquilateralTriangle t1 = new EquilateralTriangle();
-        t1.area(12,15);
-        Circle c1 = new Circle();
-        c1.area(10);
+//        EquilateralTriangle t1 = new EquilateralTriangle();
+//        t1.area(12,15);
+//        Circle c1 = new Circle();
+//        c1.area(10);
 
+        bank.Account account1 = new bank.Account();
+        account1.name  = "customer1";
+
+        System.out.println(account1.name);
     }
+
 }
