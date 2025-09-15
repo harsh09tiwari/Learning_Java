@@ -5,5 +5,8 @@ public class Bank {
         Account account1 = new Account();
         account1.name = "Harsh Tiwari";
         account1.email = "harshtiwari@email.com";
+        account1.setPassword("abcd1234");
+
+        System.out.println(account1.getPassword());
     }
 }
